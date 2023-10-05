@@ -17,14 +17,14 @@
   $contact->subject = $_POST['subject'];
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
+  
   $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
+    'host' => '21014@jjmcoe.ac.in',
+    'username' => '21014@jjmcoe.ac.in',
+    'password' => 'SanketSKSK@8007300101',
+    'port' => '8080'
   );
-  */
+  
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
